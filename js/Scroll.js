@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add event listener for the scroll event to detect reaching the end
     navMenu.addEventListener("scroll", () => {
       if (navMenu.scrollLeft + navMenu.offsetWidth >= navMenu.scrollWidth) {
-        // User has reached the end, clone and append menu items to continue scrolling
         const navItems = navMenu.querySelectorAll("a");
         const clonedNavItems = Array.from(navItems).map((item) =>
           item.cloneNode(true)
