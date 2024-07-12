@@ -1,0 +1,168 @@
+/* styles.css */
+
+body {
+    background-color: #5c7fb1;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+#nav-menu {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+#nav-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.scrolly {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scroll-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.scroll-arrow i {
+    color: white;
+    font-size: 20px;
+}
+
+#scroll-left {
+    margin-right: 10px;
+}
+
+#scroll-right {
+    margin-left: 10px;
+}
+
+.custom-header {
+    color: #5c7fb1;
+}
+
+header {
+    background-color: #1f2f4a;
+    text-align: center;
+    font-size: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 300px auto 2.5%;
+    padding: 2.5%;
+}
+
+.button-container {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    background-color: rgb(54, 65, 126);
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: 'Arial', Verdana, Geneva, Tahoma, sans-serif;
+    transform: skew(25deg);
+}
+
+.button-container a {
+    transform: skew(-25deg);
+    display: inline-block;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: auto;
+    border: 2px solid white;
+    transition: background-color 0.3s ease;
+    background-color: black;
+    box-shadow: 2px white;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: #4d78b4;
+}
+
+/*END OF NAV BAR STYLE*/
+
+/* START OF TABLE STYLE*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.tech {
+    font-weight: bold;
+    transition: all .45s ease;
+}
+.tech:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: coral;
+    border-color: black;
+}
+/*
+#connerRow {
+    background-color: red;
+}
+#peytonRow {
+    background-color: purple;
+}
+#dylanRow {
+    background-color:rgb(161, 161, 11);
+}
+#eduardoRow{
+    background-color: blue;
+}
+#chrisRow {
+    background-color: chocolate;
+}
+#aaronRow {
+    background-color: darkolivegreen;
+}
+#joshRow {
+    background-color: maroon;
+}
+*/
+thead {
+    background-color: #1f2f4a;
+    color: #ffffff;
+}
+#crown {
+    color: yellow;
+}
+/* END OF TABLE STYLE*/
